@@ -36,6 +36,15 @@
   gap: 24px;
 }
 
+.search {
+  width: 20px;
+  height: 20px;
+  flex-shrink: 0;
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
 .cart-box {
   display: flex;
   align-items: center;

@@ -4,11 +4,13 @@ export function HeaderRight() {
   return (
     <div className="header-right-box">
       <div>
-        <img src="/src/assets/search.svg" alt="search" />
+        <button type='button' className='search'>
+          <img src="/src/assets/icons/search.svg" alt="search" />
+        </button>
       </div>
       <div className="cart-box">
         <a href="#">
-          <img src="src/assets/shopping-cart.svg" alt="cart" />
+          <img src="src/assets/icons/shopping-cart.svg" alt="cart" />
         </a>
         <CounterCart />
       </div>

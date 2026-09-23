@@ -2,7 +2,7 @@ export function HeaderLeft() {
   return (
     <div className="header-left-box">
       <a href="#">
-        <img src="/src/assets/brand-logo.svg" alt="LENOVO" />
+        <img src="/src/assets/icons/brand-logo.svg" alt="LENOVO" />
       </a>
       <div className="links">
         <a href="#" className="header-service">
