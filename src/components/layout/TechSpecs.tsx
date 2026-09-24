@@ -7,6 +7,7 @@ function TechSpecs() {
       <h1 className="specs-title">Technical Specifications</h1>
       <div className="specs-accordion">
         <h3 className="specs-text">Quick Overview & Performance Specs</h3>
+        <img src="/src/assets/icons/chevron-down.svg" alt="open-specs" />
       </div>
       <Table
         tableClass="table"
