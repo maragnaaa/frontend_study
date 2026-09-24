@@ -6,6 +6,7 @@ import Reviews from './components/layout/Reviews';
 import TechSpecs from './components/layout/TechSpecs';
 import ShippingCalculator from './components/layout/ShippingCalculator';
 import Warranty from './components/layout/Warranty';
+import Footer from './components/layout/Footer';
 import './styles/global.css';
 import './styles/fonts.css';
 
@@ -17,5 +18,6 @@ createRoot(document.getElementById('root')!).render(
     <TechSpecs />
     <ShippingCalculator />
     <Warranty />
+    <Footer />
   </StrictMode>,
 );
