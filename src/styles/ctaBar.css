@@ -1,0 +1,51 @@
+.sticky-section {
+  display: flex;
+  height: 72px;
+  padding: 0 120px;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid #1e1e1e;
+  background: #000;
+}
+
+.sticky-left {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.sticky-product {
+  color: #fff;
+  font-family: Gabarito;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+.sticky-price {
+  color: #fff;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.sticky-button {
+  display: flex;
+  height: 40px;
+  padding: 0 24px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 6px;
+  background: #e2232a;
+  border: none;
+  color: #fff;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  cursor: pointer;
+}
