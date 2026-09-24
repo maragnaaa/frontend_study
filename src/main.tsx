@@ -3,6 +3,7 @@ import { createRoot } from 'react-dom/client';
 import HeaderBar from './components/layout/HeaderBar';
 import GalleryOffer from './components/layout/GalleryOffer';
 import Reviews from './components/layout/Reviews';
+import TechSpecs from './components/layout/TechSpecs';
 import './styles/global.css';
 import './styles/fonts.css';
 
@@ -11,5 +12,6 @@ createRoot(document.getElementById('root')!).render(
     <HeaderBar />
     <GalleryOffer />
     <Reviews />
+    <TechSpecs />
   </StrictMode>,
 );

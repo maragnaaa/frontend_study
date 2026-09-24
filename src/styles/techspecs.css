@@ -1,0 +1,108 @@
+.specs-section {
+  display: flex;
+  padding: 120px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 32px;
+  align-self: stretch;
+}
+
+.specs-title {
+  color: #000;
+  font-family: Gabarito;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+.specs-accordion {
+  display: flex;
+  padding: 24px;
+  justify-content: space-between;
+  align-items: center;
+  align-self: stretch;
+  border-radius: 8px;
+  border: 1px solid #e0e0e0;
+}
+
+.specs-text {
+  color: #000;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.table {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  align-self: stretch;
+  border-radius: 8px;
+  border: 1px solid #000;
+  overflow: hidden;
+}
+
+.table-header {
+  display: flex;
+  padding: 16px;
+  align-items: flex-start;
+  align-self: stretch;
+  background: #000;
+  color: #fff;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.table-header-field-1 {
+  width: 180px;
+}
+
+.table-header-field-2,
+.table-header-field-3,
+.table-header-field-4 {
+  flex: 1 0 0;
+}
+
+.primary-row {
+  display: flex;
+  padding: 16px;
+  align-items: flex-start;
+  align-self: stretch;
+  border-bottom: 1px solid #e0e0e0;
+  background: #fff;
+}
+
+.second-row {
+  display: flex;
+  padding: 16px;
+  align-items: flex-start;
+  align-self: stretch;
+  border-bottom: 1px solid #e0e0e0;
+  background: #f5f5f5;
+}
+
+.table-bold-text {
+  color: #000;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  width: 180px;
+}
+
+.table-text {
+  flex: 1 0 0;
+  color: #1e1e1e;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
